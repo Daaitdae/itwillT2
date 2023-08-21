@@ -38,7 +38,7 @@
 			  <div>
 				<br><label class="imp2" style="font-size: 16px;">Password</label>
 				<div>
-				  <input type="password" placeholder="비밀번호를 입력해주세요." required style="width: 390px;">
+				  <input type="password" placeholder="비밀번호를 입력하세요" required style="width: 390px;">
 			    </div>
 			  </div>
 		
