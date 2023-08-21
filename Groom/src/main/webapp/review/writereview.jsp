@@ -74,8 +74,12 @@
   <div style="width: 340px; height: 30px; border: 1px solid #ccc; margin-bottom: 20px; display: flex;
               align-items: center; justify-content: center; margin-left: 35px;">
      
-     <!-- 아이콘(이미지) -->
-      <img src="./images/photo.png" style="height: 15px; width: auto; margin-right: 5px;">
+    <!-- 파일 선택 입력란 -->
+    <input type="file" id="fileInput" style="display: none;">
+      
+    <!-- 아이콘(이미지) -->
+    <img src="./images/photo.png" style="height: 15px; width: auto; margin-right: 5px; cursor: pointer;"
+         onclick="document.getElementById('fileInput').click();">
       
     <p style="margin: 0;">사진/동영상 추가</p>
   </div>
